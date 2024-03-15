@@ -16,7 +16,7 @@ main-width{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: radial-gradient(#f9d349,20%, #d57e12);
+    background: linear-gradient(132deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
     position: relative;
 }
 .hero header .logo h2 a{
@@ -146,31 +146,31 @@ nav ul li.btn:hover a{
     border: 1px solid white;
     transition: .4s;
 }
-.content .social{
+.content .platforms{
     position: relative;
     z-index: 2;
     margin-top: 160px;
     padding-bottom: 40px;
     margin-left: 20PX;
 }
-.content .social a{
+.content .platforms a{
     display: inline-block;
     color: #f5dcac;
     margin-right: 25px;
     font-size: 24px;
 
 }
-.content .social a:hover{
+.content .platforms a:hover{
     transform: scale(1.2);
     transition: .4s;
     color: white;
 }
 .image{
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 85%;
     bottom: 0;
-    right: 0;
+    right: 250px;
     text-align: right;
 
 }
